@@ -1,7 +1,6 @@
 body {
     margin-left: 10%;
-    margin-right: 10%;
-    background-color: whitesmoke;
+    margin-right: 10%;    
 }
 
 #mainheader {
@@ -10,16 +9,22 @@ body {
 
 #mainfooter {
     background-color: greenyellow;
+    height: 50px;
+    text-align: center;
+    background-color: beige;
 }
 
 .container {
     background-color: beige;
 }
 
+/* navigations fält */
 nav {
     width: 100%;
-    margin: 0 auto 20px;
+    margin: 0;
     background-color: brown;
+    background-color: rgb(245, 245, 245);
+    background-color: rgb(74, 162,26);
 }
 
 nav > ul {
@@ -32,13 +37,34 @@ nav > ul {
 nav > ul >li {
     float: left;
     font-weight: bold;
+    line-height: 1.5;
 }
 
 nav > ul > li a {
     display: block;
-    color: black;
     text-align: center;
-    padding: 16px;
+    padding: 10px;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bold; 
+    color:black;   
+}
+
+nav > ul > li a:hover{
+    color:rgb(250, 210, 35);     
+    font-size: 1.1em;
+}
+
+/* breadcrumb */
+#breadcrumb a:hover {
+    color:rgb(74, 162,26);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 2px;
+}
+
+/* Aktiva länkar */
+.active {
+    color:rgb(250, 210, 35);    
+    font-size: 1.1em;
 }
