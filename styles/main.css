@@ -9,8 +9,7 @@ body {
 
 #mainfooter {
     height: 50px;
-    text-align: center;
-    background-color: rgb(216, 216, 143);
+    text-align: center;    
     background-color: rgb(250, 210, 35);
     padding-top: 10px;
 }
