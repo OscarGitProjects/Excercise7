@@ -5,17 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Oscar Andersson"> 
+    <meta name="description" content="Filmbolaget FS filmer">
           
-    <!-- Kommentar https://validator.w3.org/nu/#file -->
-    <!-- Git -->
+    <link rel="stylesheet" type="text/css" href="styles/main.css" />
     
-    <title>Filmbolaget FS - Spring Uje spring</title>
+    <title>Filmbolaget FS - Spring Uje spring</title>    
+
+    <!-- https://validator.w3.org/nu/#file -->
+    <!-- http://www.css-validator.org/validator -->
 </head>
 <body>
     <div class="container">
-        <header>
-            <img width="200" height="300" src="./img/spring_uje_spring_logga.jpeg" title="Spring Uje spring" alt="Spring Uje spring" />
+        <header id="mainheader">
+            <figure>
+                <img width="50" height="75" src="./img/spring_uje_spring_logga.jpeg" title="Spring Uje spring" alt="Spring Uje spring" />
+            </figure>        
         </header>
+        <nav> 
+            <ul class="nav nav-pills float-right"> 
+                <li class="nav-item"> 
+                    <a class="nav-link active" href="#">Hem <span class="sr-only">(current)</span></a> 
+                </li> 
+                <li class="nav-item"> 
+                    <a class="nav-link" href="about.html">Om</a> 
+                </li> 
+                <li class="nav-item"> 
+                    <a class="nav-link" href="contact.html">Kontakt</a> 
+                </li> 
+            </ul> 
+        </nav>
+
+        <div id="breadcrumb">
+            <p>Hem</p>
+        </div>
 
         <section>            
             <header><h1>Spring Uje spring</h1></header>
@@ -158,7 +180,7 @@
             </ul>
         </aside>
 
-        <footer id="footer">
+        <footer id="mainfooter">
             &copy;Filmbolaget FS. Utvecklare Oscar Andersson 2021
         </footer> 
     </div>

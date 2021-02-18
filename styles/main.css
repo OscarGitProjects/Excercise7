@@ -1,0 +1,44 @@
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: whitesmoke;
+}
+
+#mainheader {
+    background-color: beige;
+}
+
+#mainfooter {
+    background-color: greenyellow;
+}
+
+.container {
+    background-color: beige;
+}
+
+nav {
+    width: 100%;
+    margin: 0 auto 20px;
+    background-color: brown;
+}
+
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav > ul >li {
+    float: left;
+    font-weight: bold;
+}
+
+nav > ul > li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
